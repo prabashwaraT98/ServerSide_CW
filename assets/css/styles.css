@@ -1,0 +1,18 @@
+body {
+    background-color: #343a40;
+    color: white;
+}
+
+.navbar {
+    background-color: #6d7781;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.text-light {
+    color: #fff !important;
+}
+
+.text-muted {
+    color: #a3aab1 !important;
+}
