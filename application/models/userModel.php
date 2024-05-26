@@ -19,7 +19,7 @@ class userModel extends CI_Model
     {
         $data = array(
             'username' => $username,
-            'password' => $password,
+            'password' => password_hash($password, PASSWORD_BCRYPT),
             'email' => $email
         );
         return $this->db->insert('users', $data);
